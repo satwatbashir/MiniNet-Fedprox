@@ -1,0 +1,38 @@
+# Ignore logs and metrics
+*.log
+*.log*
+metrics/
+metrics-*/
+models/
+rounds/
+signals/
+runs/
+plots/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+
+# Ignore dataset cache
+data/
+
+# Ignore venv and system files
+.venv/
+.env/
+*.egg-info/
+.DS_Store
+
+# Extra ignores
+.mplcache/
+*.pdf
+docs-*/
+
+# Editor/IDE
+.idea/
+.vscode/
+*.sublime-*
+
+# Claude
+.claude/
