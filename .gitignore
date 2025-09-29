@@ -1,0 +1,13 @@
+# Ignore datasets and outputs
+data/
+metrics/
+
+# Ignore cache/compiled
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore logs
+*.log
+server.log
+client*.log
