@@ -1,13 +1,25 @@
-# Ignore datasets and outputs
-data/
+# Ignore logs and metrics
+*.log
 metrics/
-
-# Ignore cache/compiled
+models/
+rounds/
+signals/
+runs/
+plots/
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
+*.swp
+*.swo
+# Ignore dataset cache
+data/
+# Ignore venv and system files
+.venv/
+.env/
+*.egg-info/
+.DS_Store
 
-# Ignore logs
-*.log
-server.log
-client*.log
+# Extra ignores
+.mplcache/
+*.log*
